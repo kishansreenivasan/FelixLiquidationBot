@@ -16,12 +16,24 @@ Build a system to monitor CDP position health on Felix Protocol (Hyperliquid L1)
 - [ ] Configure environment variables file
 - [ ] Install required dependencies (ethers.js, database drivers)
 
-### 2. Information Gathering (CRITICAL BLOCKERS)
-- [ ] **Obtain Felix smart contract addresses**
- - CDP Manager contract address
- - Price Oracle contract address
- - Stability Pool contract addresses (per collateral type)
- - feUSD token contract address
+#### feUSD Token
+- **Contract:** `0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70`
+
+#### HYPE (WHYPE) Branch
+- **Trove Manager:** `0x3100f4e7bda2ed2452d9a57eb30260ab071bbe62`
+- **Price Feed:** `0x12a1868b89789900e413a6241ca9032dd1873a51`
+- **Stability Pool:** `0x576c9c501473e01ae23748de28415a74425efd6b`
+- **Active Pool:** `0x39ebba742b6917d49d4a9ac7cf5c70f84d34cc9e`
+- **WHYPE Token:** `0x5555555555555555555555555555555555555555`
+
+#### UBTC (Bitcoin) Branch
+- **Trove Manager:** `0xbbe5f227275f24b64bd290a91f55723a00214885`
+- **Price Feed:** `0xf59f338424062dd1d44a9b4dd2721128a45358ab`
+- **Stability Pool:** `0xabf0369530205ae56dd4c49629474c65d1168924`
+- **Active Pool:** `0x8d99575ebbbda038a626ca769561c16fdd7a5939`
+- **UBTC Token:** `0x9fdbda0a5e284c32744d2f17ee5c74b284993463`
+
+#### Need to know
 - [ ] **Get HyperEVM network details**
  - RPC endpoint URL
  - Chain ID
