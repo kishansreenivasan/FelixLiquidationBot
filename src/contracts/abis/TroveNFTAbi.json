@@ -1,0 +1,18 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "totalSupply",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "type": "function",
+    "stateMutability": "view"
+  },
+  {
+    "constant": true,
+    "inputs": [{ "name": "_index", "type": "uint256" }],
+    "name": "tokenByIndex",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "type": "function",
+    "stateMutability": "view"
+  }
+]
