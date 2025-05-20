@@ -2,7 +2,7 @@
   "name": "felixliquidationbot",
   "version": "1.0.0",
   "scripts": {
-    "start": "ts-node src/scanner/singleWalletScanner.ts"
+    "start": "ts-node src/scanner/allWalletsScanner.ts"
   },
   "dependencies": {
     "dotenv": "^16.5.0",

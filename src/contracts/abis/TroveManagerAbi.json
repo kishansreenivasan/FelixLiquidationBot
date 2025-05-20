@@ -1,0 +1,38 @@
+[
+  {
+    "name": "getLatestTroveData",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [
+      { "name": "_troveId", "type": "uint256" }
+    ],
+    "outputs": [
+      {
+        "components": [
+          { "name": "unused0", "type": "uint256" },
+          { "name": "unused1", "type": "uint256" },
+          { "name": "unused2", "type": "uint256" },
+          { "name": "unused3", "type": "uint256" },
+          { "name": "unused4", "type": "uint256" },
+          { "name": "entireDebt", "type": "uint256" },
+          { "name": "entireColl", "type": "uint256" },
+          { "name": "annualInterestRate", "type": "uint256" },
+          { "name": "unused5", "type": "uint256" }
+        ],
+        "name": "trove",
+        "type": "tuple"
+      }
+    ]
+  },
+  {
+    "name": "getTroveStatus",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [
+      { "name": "_troveId", "type": "uint256" }
+    ],
+    "outputs": [
+      { "name": "", "type": "uint8" }
+    ]
+  }
+]
